@@ -39,5 +39,5 @@ The Task List App is a simple yet powerful to-do list application built with Rea
 
 ## 📸 Example
 
-!(./taskList_video.gif)
+![Task List App Demo](./taskList_video.gif)
 
