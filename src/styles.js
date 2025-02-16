@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-        width: vw;
+        width: 100vw;
         height: 100vh;
         background: linear-gradient(90deg, #383838 0%, #000000 81.25%);
         display: flex;
@@ -16,8 +16,7 @@ export const TodoList = styled.div`
 
 export const List = styled.ul`
         padding: 0;
-        margin-top: 30px;
-        
+        margin-top: 30px;        
 `;
 
 export const Item = styled.li`
@@ -29,6 +28,7 @@ export const Item = styled.li`
         border-radius: 5px;
         height: 60px;
         list-style-type: none;
+        margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;

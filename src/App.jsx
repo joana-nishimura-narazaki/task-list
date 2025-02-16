@@ -23,7 +23,7 @@ function App() {
         <Container>
             <TodoList>
                 <Input placeholder="Write Your Task" onChange={inputChange}/>
-                <Button onClick={buttonClick}>Adicionar Tarefa</Button>
+                <Button onClick={buttonClick}>Add Task</Button>
 
                 <List>
                     {
