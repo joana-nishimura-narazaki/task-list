@@ -6,7 +6,7 @@ import { Item, Container, Input, TodoList, Button, List } from './Styles'
 function App() {
     const [tasks, setTasks] = useState([])
     const [InputValue, setInputValue] = useState("")
-    // const tasks = ['Fazer mais projetos', 'Aula de MBA']
+  
     
     function inputChange(event){
         setInputValue (event.target.value)
